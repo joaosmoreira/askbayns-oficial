@@ -1,4 +1,5 @@
 export interface NewsItem {
+  video: any;
   id: string;
   title: string;
   date: string;

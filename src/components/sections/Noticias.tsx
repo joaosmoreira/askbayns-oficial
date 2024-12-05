@@ -18,7 +18,7 @@ export function Noticias() {
     fetch('/data/news.json')
       .then((res) => res.json())
       .then((data) => {
-        const sortedNews = data.news.sort((a, b) => parseInt(b.id) - parseInt(a.id));
+        const sortedNews = data.news.sort((a: { id: string; }, b: { id: string; }) => parseInt(b.id) - parseInt(a.id));
         setNews(sortedNews);
       });
   }, []);
