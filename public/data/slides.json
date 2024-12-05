@@ -1,0 +1,34 @@
+{
+  "slides": [
+    {
+      "id": "1",
+      "title": "Askbayns",
+      "src": "https://www.askbayns.pt/content/images/hero-cover/cover-askbayns.jpg",
+      "description": "EP Arranca Troços já disponível"
+    },
+    {
+      "id": "2",
+      "title": "Honorato Bat",
+      "src": "https://www.askbayns.pt/content/images/hero-cover/cover-honorato.jpg",
+      "description": "Carpinteiro de Primeira"
+    },
+    {
+      "id": "3",
+      "title": "G-Son Tubarão",
+      "src": "https://www.askbayns.pt/content/images/hero-cover/cover-gerson.jpg",
+      "description": "O gajo que gosta de atirar o cadeirão"
+    },
+    {
+      "id": "4",
+      "title": "Johnny Owl",
+      "src": "https://www.askbayns.pt/content/images/hero-cover/cover-joao.jpg",
+      "description": "O Mocho que faz piupiu"
+    },
+    {
+      "id": "5",
+      "title": "Liam Rocket",
+      "src": "https://www.askbayns.pt/content/images/hero-cover/cover-william.jpg",
+      "description": "Eu sou um Rocket Mano"
+    }
+  ]
+}

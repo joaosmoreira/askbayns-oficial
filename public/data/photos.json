@@ -1,0 +1,11 @@
+{
+  "photos": [
+    {
+      "id": "1",
+      "title": "Concerto em Lordelo",
+      "src": "/content/concertos/2024-lordelo-01.jpg",
+      "category": "concertos",
+      "date": "2024-02-15"
+    }
+  ]
+}

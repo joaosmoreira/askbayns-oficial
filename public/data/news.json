@@ -1,0 +1,18 @@
+{
+  "news": [
+    {
+      "id": "1",
+      "title": "Novo Single - 'Endless Night'",
+      "date": "2024-03-15",
+      "content": "Estamos muito felizes em anunciar o lançamento do nosso novo single 'Endless Night'...",
+      "image": "/content/hero/johnny-owl.jpg"
+    },
+    {
+      "id": "2",
+      "title": "Novo Single 2 - 'Endless Night'",
+      "date": "2024-03-15",
+      "content": "Estamos muito felizes em anunciar o lançamento do nosso novo single 'Endless Night'...",
+      "image": "/content/hero/johnny-owl.jpg"
+    }
+  ]
+}
