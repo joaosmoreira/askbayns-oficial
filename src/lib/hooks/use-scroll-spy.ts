@@ -4,7 +4,7 @@ export function useScrollSpy() {
   const [activeSection, setActiveSection] = useState<string>('');
 
   useEffect(() => {
-    const sections = document.querySelectorAll('section[id]');
+    const sections = Array.from(document.querySelectorAll('section[id]')) as HTMLElement[];
 
     const handleScroll = () => {
       let currentSection = '';
