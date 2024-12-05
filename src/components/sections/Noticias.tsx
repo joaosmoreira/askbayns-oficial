@@ -17,7 +17,10 @@ export function Noticias() {
   useEffect(() => {
     fetch('/data/news.json')
       .then((res) => res.json())
-      .then((data) => setNews(data.news));
+      .then((data) => {
+        const sortedNews = data.news.sort((a, b) => parseInt(b.id) - parseInt(a.id));
+        setNews(sortedNews);
+      });
   }, []);
 
   const loadMore = () => {
@@ -35,7 +38,15 @@ export function Noticias() {
                 <CardTitle>{item.title}</CardTitle>
               </CardHeader>
               <CardContent>
-                {item.image && (
+                {item.video ? (
+                  <iframe
+                    src={item.video}
+                    title={item.title}
+                    className="w-full h-48 rounded-lg mb-4"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                  ></iframe>
+                ) : item.image && (
                   <img
                     src={item.image}
                     alt={item.title}
@@ -70,7 +81,15 @@ export function Noticias() {
           {selectedNews && (
             <div className="space-y-4">
               <p className="text-sm text-muted-foreground">{selectedNews.date}</p>
-              {selectedNews.image && (
+              {selectedNews.video ? (
+                <iframe
+                  src={selectedNews.video}
+                  title={selectedNews.title}
+                  className="w-full h-64 rounded-lg"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                ></iframe>
+              ) : selectedNews.image && (
                 <img
                   src={selectedNews.image}
                   alt={selectedNews.title}
