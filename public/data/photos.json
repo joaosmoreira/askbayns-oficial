@@ -3,42 +3,42 @@
     {
       "id": "1",
       "title": "Concerto em Lordelo",
-      "src": "public/images/fotos/ask-robe-bacalhau.png",
+      "src": "/images/fotos/ask-robe-bacalhau.png",
       "category": "concertos",
       "date": "2024-02-15"
     },
     {
       "id": "2",
       "title": "Concerto em Lordelo",
-      "src": "public/images/fotos/ask-sunset-24.png",
+      "src": "/images/fotos/ask-sunset-24.png",
       "category": "concertos",
       "date": "2024-02-15"
     },
     {
       "id": "3",
       "title": "Concerto em Lordelo",
-      "src": "public/images/fotos/ask-vivo-cores.png",
+      "src": "/images/fotos/ask-vivo-cores.png",
       "category": "concertos",
       "date": "2024-02-15"
     },
     {
       "id": "4",
       "title": "Concerto em Lordelo",
-      "src": "public/images/fotos/ask-robe-bacalhau.png",
+      "src": "/images/fotos/ask-robe-bacalhau.png",
       "category": "concertos",
       "date": "2024-02-15"
     },
     {
       "id": "5",
       "title": "Concerto em Lordelo",
-      "src": "public/images/fotos/ask-vivo-cores.png",
+      "src": "/images/fotos/ask-vivo-cores.png",
       "category": "concertos",
       "date": "2024-02-15"
     },
     {
       "id": "6",
       "title": "Concerto em Lordelo",
-      "src": "public/images/fotos/ask-sunset-24.png",
+      "src": "/images/fotos/ask-sunset-24.png",
       "category": "concertos",
       "date": "2024-02-15"
     }
