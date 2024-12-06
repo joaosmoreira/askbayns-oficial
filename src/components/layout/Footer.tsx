@@ -17,7 +17,7 @@ export function Footer() {
             <h3 className="text-xl font-bold">Redes Sociais</h3>
             <div className="flex gap-4 md:justify-end">
               <a
-                href="https://facebook.com"
+                href="https://facebook.com/askbayns/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-blue-400 transition-colors"
@@ -25,7 +25,7 @@ export function Footer() {
                 <Facebook className="h-6 w-6" />
               </a>
               <a
-                href="https://instagram.com"
+                href="https://instagram.com/askbayns69/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-pink-400 transition-colors"
@@ -33,7 +33,7 @@ export function Footer() {
                 <Instagram className="h-6 w-6" />
               </a>
               <a
-                href="https://youtube.com"
+                href="https://www.youtube.com/@askbayns/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-red-500 transition-colors"
@@ -44,7 +44,7 @@ export function Footer() {
           </div>
         </div>
         <div className="mt-8 pt-8 border-t border-gray-800 text-center text-sm text-gray-400">
-          <p>© {new Date().getFullYear()} Nome da Banda. Todos os direitos reservados.</p>
+          <p>© {new Date().getFullYear()} Askbayns. Todos os direitos reservados.</p>
           <p className="mt-2">
             Desenvolvido por{' '}
             <a

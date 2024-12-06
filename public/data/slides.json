@@ -2,33 +2,21 @@
   "slides": [
     {
       "id": "1",
-      "title": "Askbayns",
-      "src": "https://www.askbayns.pt/content/images/hero-cover/cover-askbayns.jpg",
-      "description": "EP Arranca Troços já disponível"
+      "title": "Bacalhau feat. Homem do Robe",
+      "src": "public/images/fotos/ask-robe-bacalhau.png",    
+      "description": "O novo single com a participação do Homem do Robe já está nas plataformas de streaming"
     },
     {
       "id": "2",
-      "title": "Honorato Bat",
-      "src": "https://www.askbayns.pt/content/images/hero-cover/cover-honorato.jpg",
-      "description": "Carpinteiro de Primeira"
+      "title": "Bayns City (Ao Vivo e a Cores)",
+      "src": "public/images/fotos/ask-vivo-cores.png",
+      "description": "Fica aqui a parte mais contida da festa, quanto ao resto, ficará no CU... quer dizer, no CRU!"
     },
     {
       "id": "3",
-      "title": "G-Son Tubarão",
-      "src": "https://www.askbayns.pt/content/images/hero-cover/cover-gerson.jpg",
-      "description": "O gajo que gosta de atirar o cadeirão"
-    },
-    {
-      "id": "4",
-      "title": "Johnny Owl",
-      "src": "https://www.askbayns.pt/content/images/hero-cover/cover-joao.jpg",
-      "description": "O Mocho que faz piupiu"
-    },
-    {
-      "id": "5",
-      "title": "Liam Rocket",
-      "src": "https://www.askbayns.pt/content/images/hero-cover/cover-william.jpg",
-      "description": "Eu sou um Rocket Mano"
+      "title": "Ah Coisas Sunset 2024",
+      "src": "public/images/fotos/ask-sunset-24.png",
+      "description": "Elevadíssimos níveis de Festão"
     }
   ]
 }
