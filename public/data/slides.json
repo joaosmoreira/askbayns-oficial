@@ -3,19 +3,19 @@
     {
       "id": "1",
       "title": "Bacalhau feat. Homem do Robe",
-      "src": "public/images/fotos/ask-robe-bacalhau.png",    
+      "src": "../public/images/fotos/ask-robe-bacalhau.png",    
       "description": "O novo single com a participação do Homem do Robe já está nas plataformas de streaming"
     },
     {
       "id": "2",
       "title": "Bayns City (Ao Vivo e a Cores)",
-      "src": "public/images/fotos/ask-vivo-cores.png",
+      "src": "../public/images/fotos/ask-vivo-cores.png",
       "description": "Fica aqui a parte mais contida da festa, quanto ao resto, ficará no CU... quer dizer, no CRU!"
     },
     {
       "id": "3",
       "title": "Ah Coisas Sunset 2024",
-      "src": "public/images/fotos/ask-sunset-24.png",
+      "src": "../public/images/fotos/ask-sunset-24.png",
       "description": "Elevadíssimos níveis de Festão"
     }
   ]
