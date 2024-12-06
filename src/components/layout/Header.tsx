@@ -1,5 +1,4 @@
 import { MusicIcon } from 'lucide-react';
-import { ThemeToggle } from './ThemeToggle';
 
 export function Header() {
   return (
@@ -9,7 +8,6 @@ export function Header() {
           <MusicIcon className="h-6 w-6" />
           <span className="text-xl font-bold">ASKBAYNS</span>
         </div>
-        <ThemeToggle />
       </div>
     </header>
   );
