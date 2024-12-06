@@ -23,7 +23,7 @@ export function Menu() {
               key={item.href}
               href={item.href}
               className={cn(
-                'text-sm font-medium transition-colors hover:text-primary',
+                'text-sm font-medium transition-colors hover:text-purple-600',
                 activeSection === item.href.slice(1)
                   ? 'text-primary'
                   : 'text-muted-foreground'
