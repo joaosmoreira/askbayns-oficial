@@ -5,30 +5,30 @@ export function Biografia() {
     <Section id="biografia">
       <div className="relative">
         {/* Imagens */}
-        <div className="float-right ml-6 mb-6 w-2/5 lg:w-2/5 lg:order-last">
+        <div className="float-right ml-6 mb-6 w-2/5 lg:order-last">
           <div className="grid grid-cols-2 gap-2">
             <img
               src="https://www.askbayns.pt/content/images/banda/honorato_bat.jpg"
               alt="Honorato Bat"
-              className="w-full h-32 object-cover rounded-lg"
+              className="w-full h-64 object-cover rounded-lg"
               loading="lazy"
             />
             <img
               src="https://www.askbayns.pt/content/images/banda/g-son_shack.jpg"
               alt="G-Son Shack"
-              className="w-full h-32 object-cover rounded-lg"
+              className="w-full h-64 object-cover rounded-lg"
               loading="lazy"
             />
             <img
               src="https://www.askbayns.pt/content/images/banda/johnny_owl.jpg"
               alt="Johnny Owl"
-              className="w-full h-32 object-cover rounded-lg"
+              className="w-full h-64 object-cover rounded-lg"
               loading="lazy"
             />
             <img
               src="https://www.askbayns.pt/content/images/banda/liam_rocket.jpg"
               alt="Liam Rocket"
-              className="w-full h-32 object-cover rounded-lg"
+              className="w-full h-64 object-cover rounded-lg"
               loading="lazy"
             />
           </div>
