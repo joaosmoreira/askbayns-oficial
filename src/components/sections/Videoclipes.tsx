@@ -12,14 +12,14 @@ const videos = [
 
 export function Videoclipes() {
   return (
-    <Section id="videoclipes" className="bg-zinc-900">
+    <Section id="videoclipes" className="bg-gradient-to-r from-amber-600 to-yellow-400">
       <div className="space-y-8">
         <h2 className="text-3xl font-bold text-center text-white">
           Videoclipes
         </h2>
-        <div className="grid gap-6 md:grid-cols-3">
+        <div className="grid gap-6 md:grid-cols-3" >
           {videos.map((video) => (
-            <Card key={video.id} className="bg-black border-none">
+            <Card key={video.id} className="border-none bg-transparent shadow-none">
               <CardContent className="p-4">
                 <div className="aspect-video">
                   <iframe
