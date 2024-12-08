@@ -20,31 +20,31 @@ export function Fotografias() {
   }, []);
 
   return (
-    <Section id="fotografias" className="bg-indigo-950">
+    <Section id="fotografias" className="bg-white">
       <div className="space-y-8">
-        <h2 className="text-3xl font-bold text-center text-white">Fotografias</h2>
+        <h2 className="text-3xl font-bold text-center">Fotografias</h2>
         <Carousel
           opts={{
             align: 'start',
             loop: true,
           }}
-          className="w-full max-w-5xl mx-auto"
+          className="w-full max-w-full mx-auto"
         >
           <CarouselContent>
             {photos.map((photo) => (
-              <CarouselItem key={photo.id} className="md:basis-1/2 lg:basis-1/3">
+              <CarouselItem key={photo.id} className="md:basis-1/3 lg:basis-1/4">
                 <Card className="overflow-hidden border-none">
                   <img
                     src={photo.src}
                     alt={photo.title}
-                    className="w-full h-64 object-cover transition-transform hover:scale-105"
+                    className="w-full h-80 object-cover transition-transform hover:scale-105"
                   />
                 </Card>
               </CarouselItem>
             ))}
           </CarouselContent>
-          <CarouselPrevious className="text-white" />
-          <CarouselNext className="text-white" />
+          <CarouselPrevious />
+          <CarouselNext />
         </Carousel>
       </div>
     </Section>

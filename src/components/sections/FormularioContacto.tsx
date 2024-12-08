@@ -18,10 +18,10 @@ export function FormularioContacto() {
 
     try {
       await emailjs.sendForm(
-        'YOUR_SERVICE_ID',
-        'YOUR_TEMPLATE_ID',
+        'service_x9gdpa5',
+        'template_9yh1rfx',
         e.currentTarget,
-        'YOUR_PUBLIC_KEY'
+        'Hr_iG61SYmvIiFt8w'
       );
 
       toast({

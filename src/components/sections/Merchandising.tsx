@@ -4,7 +4,7 @@ import { ArrowRight } from 'lucide-react';
 
 export function Merchandising() {
   return (
-    <Section id="merchandising" className="bg-emerald-950">
+    <Section id="merchandising" className="bg-gradient-to-r from-pink-500 to-purple-500 py-20 text-white">
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6 text-white">
